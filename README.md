@@ -1,5 +1,33 @@
-Training Seminar: Modern Developer Workflow 🚀Welcome to the official repository for the February 14, 2026, Training Seminar. This project is designed to bridge the gap between academic coding and professional team-based IT development.Through this seminar, you will transform a "monolithic" legacy application into a modular, professional-grade project using Git, SOLID Principles, and AI-Assisted Programming.🎤 Speakers & TopicsSpeakerTopicFocusJan Dale ZarateGit 101 & VS CodeVersion control, branching, and team sync.Reynaldo Jr. FerrerPrompt EngineeringUsing AI to accelerate refactoring and coding.Carl EstradaSOLID FrameworkWriting maintainable, modular, and clean code.🛠 The Activity: "The Monolith Refactor"The current state of this repository is a Monolith. All HTML, CSS, and JavaScript are crammed into a single index.html file. This makes the code hard to read, difficult to test, and impossible for a team to work on simultaneously without causing merge conflicts.Phase 1: Git FoundationsFork this repository to your own GitHub account.Clone your fork to your local machine via VS Code.Create a Branch: Create a new branch named refactor/solid-modules.Rule: Never work directly on main!Phase 2: Refactoring with AI (Prompt Engineering)Using the principles shared by Reynaldo, use an AI (ChatGPT/Gemini) to break the monolith apart.Goal: Extract the styles into style.css and the logic into script.js.Constraint: Apply the Single Responsibility Principle. The HTML should only handle structure, the CSS only design, and the JS only behavior.Phase 3: The "Teamwork" SimulationSyncing: Before finishing, simulate a team update by fetching and merging any changes from the original main branch.Conflict Resolution: If your refactor overlaps with a teammate's changes, use the VS Code Merge Editor to resolve the conflict.Commit & Push: Commit your changes with a descriptive message and push your branch to GitHub.📁 Repository Structure (After Refactor)Once you complete the activity, your project structure should look like this:Plaintext├── index.html     # Clean structure, links to CSS and JS
-├── style.css      # All UI styling (Modularized)
-├── script.js     # Business logic & event listeners
-└── README.md      # This documentation
-💡 Key Git Commands to Remembergit checkout -b <branch-name> : Create and switch to a new branch.git status : See which files are modified (M) or untracked (U).git add . : Stage your changes for a "save point."git commit -m "Your message" : Save your snapshot to the history.git pull origin main : Get the latest updates from the team.📝 Seminar NotesSOLID: A class or file should have one, and only one, reason to change.Prompting: Be specific. Tell the AI the context (Legacy HTML) and the target (Clean JS modules).Git: Commit often, pull frequently, and always communicate with your team.Seminar Date: February 14, 2026Target Audience: IT Student Interns
+# 🚀 Seminar: Modern Developer Workflow
+**SOLID Principles, Prompt Engineering, and Git 101**
+
+Welcome to the official repository for the February 14, 2026, Training Seminar. This project is designed to transition you from "writing code that works" to "engineering systems that last" using modern AI-assisted workflows and version control.
+
+---
+
+## 🎤 Speakers & Topics
+
+| Speaker | Topic | Core Focus |
+| :--- | :--- | :--- |
+| **Carl Estrada** | **SOLID Principles** | Writing maintainable, modular, and scalable code. |
+| **Reynaldo Jr. Ferrer** | **Prompt Engineering** | Leveraging AI to accelerate refactoring and debugging. |
+| **Jan Dale Zarate** | **Git 101** | Version control, team collaboration, and conflict resolution. |
+
+---
+
+## 🛠️ The Activity: The Monolithic Guestbook Refactor
+
+In this hands-on workshop, you will find a "Legacy" application in `index.html`. It is a functional guestbook, but it is a **Monolith**—the HTML, CSS, and JavaScript are all tangled in one file, violating the Single Responsibility Principle.
+
+### **Objective**
+Use **Git** to manage your workflow and **Prompt Engineering** to refactor the code according to **SOLID** principles.
+
+---
+
+## 🏃‍♂️ Step-by-Step Instructions
+
+### **1. Setup (Git)**
+* **Fork** this repository to your own GitHub account.
+* **Clone** your fork to your local machine:
+  ```bash
+  git clone [https://github.com/YOUR_USERNAME/repository-name.git](https://github.com/YOUR_USERNAME/repository-name.git)
